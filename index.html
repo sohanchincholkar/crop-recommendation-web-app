@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CropPrediction - Transforming Agriculture</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar background">
+      <ul class="nav-list">
+          <div class="logo"> <img src="img.jpg" alt="logo"> </div>
+          <li> <a href="index.html"> Home </a> </li>
+          <li> <a href="about.html"> About </a> </li>
+          <li> <a href="#services"> Services </a> </li>
+          <li> <a href="contact.html"> Contact Us </a> </li>
+      </ul>
+      <div class="rightNav">
+          <input type="text" name="Search" id="Search">
+          <button class="btn btn-sm">Search</button>
+       </div>
+  </nav> 
+
+  <section class="background firstSection">
+      <div class="box-main">
+          <div class="firstHalf">
+              <p class="text-big">The Future of Agriculture is here</p>
+              <p class="small-text"> Agriculture is first and foremost factor which is important for survival. Machine learning (ML) could be a crucial perspective for acquiring real-world and operative solution for crop prediction issue.  </p>
+              <p class="small-text"> This project focuses mainly on predicting the crop by applying various machine learning techniques.The prediction made by machine learning algorithms will help the farmers to come to a decision which crop to grow to induce the most yield by considering factors like temperature, rainfall, humidity etc. This bridges the gap between technology and agriculture sector.  </p> 
+              <p class="small-text">This is the future of Agriculture.</p>
+              <div class="buttons">
+                  
+                  <button class="btn"> <a href="https://www.youtube.com/watch?v=WqT4QdJ0JTw"> Watch Video </a></button>
+              </div>
+          </div>
+          <div class="secondHalf">
+              <img src="ed.jpg" width="280%" alt="Educatio">
+          </div>
+      </div>
+      <div class="box-sec">
+        <form action="croppredict.ipynb()" method="post">
+            <label> Nitrogen. :</label>
+            <input type="number" placeholder="" step="0.000001" name="N">
+            <label>Phosphorus... :</label>
+            <input type="number" placeholder="" step="0.000001" name="P"><br>
+            <label>Potassium:</label>
+            <input type="number" placeholder="" step="0.000001" name="K">
+            <label> Temperature. :</label>
+            <input type="number" placeholder="" step="0.000001" name="temperature"><br>
+            <label> Humidity :</label>
+            <input type="number" placeholder="" step="0.000001" name="humidity">
+            <label> Soil pH Value:</label>
+            <input type="number" placeholder="" step="0.000001"  name="ph"><br>
+            <label>Rainfall.. : </label>
+            <input type="number" placeholder="" step="0.000001"  name="rainfall"><br>
+            <a> <input class="btn" type="submit" name="submit"></a>
+        
+        </form>
+
+      </div>
+      
+
+  </section>
+  
+ 
+</body>
+</html>
